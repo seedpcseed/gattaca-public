@@ -1,6 +1,7 @@
 import logging
 import pickle
 import numpy as np
+import joblib
 from sklearn.mixture import DPGMM, GMM
 
 from preprocess import create_matrix, reduce_dimensionality
